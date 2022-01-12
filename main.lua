@@ -6,17 +6,18 @@ io.stdout:setvbuf('no')
 love.graphics.setDefaultFilter("nearest")
 
 
-myImg= nil
-
-
 function love.load()
   myImg = love.graphics.newImage("img/hero.png")
+  myImg02 = love.graphics.newImage("img/ship.png")
 end
 
 function love.update(dt)
-
+ -- pour déplacement
 end
 
 function love.draw()
- love.graphics.draw(myImg,0,0)
+  -- affichage chevalier
+  love.graphics.draw(myImg,10,10)
+  -- affichage vaisseau
+  love.graphics.draw(myImg02,30,30)
 end
