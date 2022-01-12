@@ -11,9 +11,10 @@ function love.load()
   myImg02 = love.graphics.newImage("img/ship.png")
 end
 
-function love.update(dt)
- -- pour déplacement
+function totoSurUnbateau()
+ print("plouf")
 end
+
 
 function love.draw()
   -- affichage chevalier
