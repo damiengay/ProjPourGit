@@ -18,5 +18,6 @@ function love.update(dt)
 end
 
 function love.draw()
- love.graphics.draw(myImg,0,0)
+  -- youpi c'est la fête
+ love.graphics.draw(myImg,10,10)
 end
